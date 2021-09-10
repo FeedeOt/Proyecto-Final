@@ -1,0 +1,14 @@
+@mixin display($display, $flexd, $ejep, $ejes){
+    display: $display;
+    flex-direction: $flexd;
+    justify-content: $ejep;
+    align-items: $ejes;
+}
+@mixin boton($bgcolor, $ancho, $alto, $radiob, $tcolor, $borde){
+    background-color: $bgcolor;
+    width: $ancho;
+    height: $alto;
+    border-radius: $radiob;
+    color: $tcolor;
+    border: $borde;
+}

@@ -1,0 +1,54 @@
+header{
+    .img-header{
+        background-image: url(../imgs/slider-1.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        width: 136.6rem;
+        height: 76.8rem;
+        max-width: 136.6rem;
+        max-height: 76.8rem;
+    }
+    #div-nav-header{
+        @include display(flex, row, space-between, center);
+        padding: 3rem 10rem;
+    }
+    ul{
+        list-style: none;
+        @include display(flex, row, space-between, center);
+        margin-bottom: 0px !important;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 0rem 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+        margin-bottom: 0px;
+    }
+    .linea-header{
+        border-top: 0.1rem solid coral;
+    }
+    div h1{
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        margin: 17rem 0rem 0rem 10rem;
+        font-size: 3.8rem !important;
+        text-align: left;
+        letter-spacing: 0.067rem;
+    }
+    div h2{
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem !important;
+        margin: 4rem 0rem 0rem 10rem;
+        letter-spacing: 0.022rem;
+        text-align: left;
+    }
+    .boton{
+        @include boton(#E0752F, 12.4rem, 3.8rem, 2.5rem, #FFFFFF, 0px);
+        margin: 4rem 0rem 0rem 10rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+    }
+}

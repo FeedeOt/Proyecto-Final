@@ -1,0 +1,100 @@
+main{
+    .backg-main1{
+        background-color: #FFFFFF;
+        @include display(flex, row, flex-start, center);
+        max-width: 136.6rem;
+        max-height: 67.2rem;
+
+    }
+    .boton{
+        @include boton(#E0752F, 3.2rem, 38.4rem, 0rem, none, none);
+        margin: 14.4rem 0rem;
+    }
+    .h1-main1{
+        color: #343434;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.055rem;
+    }
+    .h1-main2{
+        color: #E0752F;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.055rem;  
+    }
+    section div section h2{
+        color: #343434;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        padding: 5rem 8.3rem 1rem 0rem;
+    }
+    #div-main-h{
+        @include display (flex, column, center, flex-start);
+        padding: 0rem 20rem;
+    }
+    .backg-main2{
+        background-color: #F2F4F1;
+        @include display (flex, row-reverse, flex-start, center);
+        max-width: 136.6rem;
+        max-height: 76.8rem;
+    }
+    .boton-main2{
+        @include boton (#DCE1DA, 39.8rem, 76.8rem, 0rem, none, none);
+        padding: 0px;
+    }
+    .div2-main2{
+        background-image: url(../imgs/section3-image.png);
+        background-repeat: no-repeat;
+        width: 96.6rem;
+        height: 55.2rem;
+        background-size: contain;
+        margin-right: -20rem;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .boton-div-main2{
+        @include boton (#E0752F, 47.1rem, 30.4rem, 0rem, #FFFFFF, none);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .boton-main2-h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        margin-left: 4rem;
+    }
+    .boton-main2-h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.9rem;
+        margin-left: 4rem;
+    }
+    .boton-main2-h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+        margin-right: 6rem;
+    }
+    .botones-en-boton{
+        align-self: flex-end;
+        margin-right: 8rem;
+        margin-top: 3.2rem;
+    }
+    .backg-main3{
+        background-color: #FFFFFF;
+        @include display(flex, row-reverse, flex-start, flex-start);
+        max-width: 136.6rem;
+        max-height: 76.8rem;
+    }
+    .img-back-main3{
+        background-image: url(../imgs/section4-image.png);
+        background-repeat: no-repeat;
+        width: 77rem;
+        height: 76.8rem;
+        background-size: contain;
+    }
+    .acordeon{
+        font-size: 1.6rem !important;
+    }
+}
