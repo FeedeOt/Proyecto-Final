@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexProyectoFinal.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeedeOt/Proyecto-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeedeOt/Proyecto-Final/issues"
+  },
+  "homepage": "https://github.com/FeedeOt/Proyecto-Final#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
+}
