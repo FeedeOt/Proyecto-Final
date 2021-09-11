@@ -29,8 +29,6 @@ const Header = () =>{
                         </nav>
                     </div>
                     <div className="linea-header"></div>
-                    
-
                 </section>
             </header>
         </div>
