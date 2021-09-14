@@ -6,7 +6,7 @@ import "../../scss/main.scss"
 const Main = () => {
     return (
         <main>
-            <section class="backg-main1">
+            <section class="backg-main1" id="about">
                 <div>
                     <button disabled="disabled" class="boton"></button>
                 </div>
@@ -23,7 +23,7 @@ const Main = () => {
                     </section>
                 </div>
             </section>
-            <section class="backg-main2">
+            <section class="backg-main2" id="products">
                 <div>
                     <button disabled="disabled" class="boton-main2"></button>
                 </div>

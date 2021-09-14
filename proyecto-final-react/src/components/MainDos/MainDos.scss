@@ -1,13 +1,20 @@
-Div.MainDos{
-    height: 100vh;
-
-}
-.SectionMainDos{
-    background-image: url("../../assets/img/section4-image.png");
-    height: 100vh;
-    display: flex;
-}
-img, svg {
-    position: absolute;
+.ImageMainDos {
     z-index: -1;
+    height: 100vh;
+}
+.accordion {
+    position: absolute;
+    width: 45rem;
+    right: 50rem;
+}
+#MainDos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.accordion-body {
+    height: 10rem;
+}
+.accordion-button {
+    height: 6rem;
 }
