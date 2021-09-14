@@ -1,0 +1,13 @@
+Div.MainDos{
+    height: 100vh;
+
+}
+.SectionMainDos{
+    background-image: url("../../assets/img/section4-image.png");
+    height: 100vh;
+    display: flex;
+}
+img, svg {
+    position: absolute;
+    z-index: -1;
+}
