@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, Button } from "react-bootstrap";
 import imageSlider from "../../assets/img/slider-1@2x.png";
+import "../../scss/main.scss"
 
 
 const Hero = () => {
