@@ -55,19 +55,19 @@ const Contact = () => {
                     <Form noValidate validated={validated} onSubmit={(e)=>handleSubmit(e)}>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label></Form.Label>
-                            <Form.Control type="Name" placeholder="Name" name="Name" onChange={(e)=>handleChange(e)} required />
+                            <Form.Control type="Name" placeholder="Name" name="name" onChange={(e)=>handleChange(e)} required />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label></Form.Label>
-                            <Form.Control type="email" placeholder="Email" name="Email" onChange={(e)=>handleChange(e)} required />
+                            <Form.Control type="email" placeholder="Email" name="email" onChange={(e)=>handleChange(e)} required />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label></Form.Label>
-                            <Form.Control type="tel" placeholder="Phone" name="Phone" onChange={(e)=>handleChange(e)} />
+                            <Form.Control type="tel" placeholder="Phone" name="phone" onChange={(e)=>handleChange(e)} required/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                             <Form.Label></Form.Label>
-                            <Form.Control as="textarea" placeholder="Message" name="Message" onChange={(e)=>handleChange(e)} rows={3} />
+                            <Form.Control as="textarea" placeholder="Message" name="message" onChange={(e)=>handleChange(e)} required rows={3} />
                         </Form.Group>
                         { showAlert ? !error ? <Alert variant={'success'}>Email enviado con éxito.
                         </Alert> : <Alert variant={'danger'}>Hubo un error al enviar el email.</Alert> : null }
