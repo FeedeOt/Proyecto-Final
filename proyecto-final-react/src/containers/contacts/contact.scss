@@ -1,0 +1,63 @@
+#ContFooter {
+    background-color: #F2F4F1;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#ContFooter4 {
+    background-color: #DCE1DA;
+    height: 90vh;
+    width: 30%;
+}
+#ContFooter3 {
+    position: absolute;
+    align-self: center;
+    left: 48%;
+}
+.imageContact {
+    max-width: 45vw;
+    max-height: 45vh;
+}
+#ContFooter2 {
+    position: absolute;
+    align-self: center;
+    right: 59%;
+    width: 30%;
+    .btn {
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+}
+#ContFooter1 {
+    position: absolute;
+    right: 72.5%;
+    padding-top: 6rem;
+}
+#FinalFooter {
+    display: flex;
+    justify-content: space-between;
+}
+.form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #DCE1DA;
+    border-radius: 0px;
+    font-size: 15px;
+    resize: none;
+}
+section{
+    div{
+        div{
+            h1{
+                color: #343434;
+            }
+            h2{
+                color: #E0752F;
+            }
+        }
+    }
+}
+
+
+

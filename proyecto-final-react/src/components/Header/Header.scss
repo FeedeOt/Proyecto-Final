@@ -4,17 +4,21 @@ header{
     #div-nav-header{
         @include display(flex, row, space-between, center);
         padding: 3rem 10rem;
+        img {
+            max-width: 100%;
+        }
     }
     ul{
         list-style: none;
         @include display(flex, row, space-between, center);
         margin-bottom: 0px;
+        flex-wrap: wrap;
     }
     ul li a{
         text-decoration: none;
         color: #FFFFFF;
         padding: 0rem 2rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif; 
         font-size: 1.1rem;
         margin-bottom: 0px;
     }
